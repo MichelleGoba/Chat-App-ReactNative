@@ -14,3 +14,4 @@ const cors = require("cors");
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 app.use(passport.initialize());
+const jwt = require("jsonwebtoken");
